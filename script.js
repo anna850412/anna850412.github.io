@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var apiRoot = 'http://aqueous-taiga-18091.herokuapp.com/v1/task/';
+  var apiRoot = 'https://aqueous-taiga-18091.herokuapp.com/v1/task/';
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
 
