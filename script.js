@@ -1,5 +1,5 @@
 $(document).ready(function() {
-   const apiRoot = 'https://aqueous-taiga-18091.herokuapp.com/v1/tasks/';
+   const apiRoot = 'https://aqueous-taiga-18091.herokuapp.com/v1/';
    const trelloApiRoot = 'https://aqueous-taiga-18091.herokuapp.com/v1/trello/';
    const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
    const $tasksContainer = $('[data-tasks-container]');
